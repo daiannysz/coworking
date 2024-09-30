@@ -1,18 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author 55619
- */
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
-        String m = JOptionPane.showInputDialog("Anyone there?");
         SalaCoworking salaA = new SalaCoworking("Sala A");
         SalaCoworking salaB = new SalaCoworking("Sala B");
         Scanner scanner = new Scanner(System.in);
